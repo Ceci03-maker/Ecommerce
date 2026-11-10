@@ -1,0 +1,32 @@
+E-Commerce Sales Analysis: Business Insights
+===============================================
+
+Scope and interpretation
+------------------------
+These findings are calculated from cleaned positive-quantity sales. Cancellation invoices and rows with non-positive quantities or prices were excluded; returns are not netted against sales.
+Customer counts and repeat-purchase metrics include only transactions with a recorded CustomerID. Missing IDs remain in sales totals.
+All amounts are reported in the dataset's stated currency (£).
+
+Observed findings
+-----------------
+- Total revenue: £10,642,110.80; 19,960 orders; 4,338 identified customers.
+- Highest-revenue month: 2011-11 (£1,503,866.78).
+- Lowest-revenue month: 2011-02 (£522,545.56).
+- Top products by revenue:
+- DOTCOM POSTAGE (stock code DOT): £206,248.77
+- REGENCY CAKESTAND 3 TIER (stock code 22423): £174,156.54
+- PAPER CRAFT , LITTLE BIRDIE (stock code 23843): £168,469.60
+- WHITE HANGING HEART T-LIGHT HOLDER (stock code 85123A): £104,284.24
+- PARTY BUNTING (stock code 47566): £99,445.23
+- Highest-revenue country: United Kingdom (£9,001,744.09).
+- Monthly revenue spans 13 month(s). Across 12 consecutive-month comparisons, revenue increased 6 time(s), decreased 6 time(s), and was unchanged 0 time(s). See monthly_revenue.csv and the monthly revenue chart for the full series. Partial months can affect these comparisons, and this dataset alone does not establish a recurring seasonal trend.
+- Among customers with an ID, 2,845 of 4,338 placed more than one order (65.6%).
+
+Recommendations to consider
+----------------------------
+- Review the highest-revenue products for stock availability and merchandising opportunities. Revenue is not profit, so check margins and inventory costs before making stock decisions.
+- Investigate the lowest-revenue month alongside promotions, opening days, and whether the month is only partially represented before planning campaigns.
+- Compare country-level revenue with shipping costs, taxes, and margins before prioritizing geographic expansion.
+- Consider testing customer-retention ideas, then measure their results against a suitable baseline; the observed repeat-order share does not show what caused customers to return.
+
+These recommendations are hypotheses for further investigation. Aggregated transaction patterns show associations, not causation.
